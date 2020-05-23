@@ -1,3 +1,4 @@
+// "SPDX-License-Identifier: UNLICENSED"
 pragma solidity >=0.4.21 <0.7.0;
 
 contract Migrations {
@@ -22,7 +23,7 @@ contract Migrations {
     thirdAngle = 180 - a - b;
   }
 
-  function getThirdAngle() view public returns (int) {
+  function getThirdAngle() public view returns (int) {
     return thirdAngle;
   }
 }
