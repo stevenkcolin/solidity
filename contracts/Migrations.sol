@@ -22,7 +22,7 @@ contract Migrations {
     thirdAngle = 180 - a - b;
   }
 
-  function getThirdAngle() constant public returns (int) {
+  function getThirdAngle() view public returns (int) {
     return thirdAngle;
   }
 }
